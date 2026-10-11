@@ -1,0 +1,6 @@
+views:
+  - type: leaflet-map
+    name: View
+    image: atlas-vtt/assets/Cleric_1791756110780_0pb5f6.webp
+    height: 800
+    maxZoom: 30
