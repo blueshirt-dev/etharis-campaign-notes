@@ -21,6 +21,7 @@ if ! command -v pdfseparate >/dev/null 2>&1; then
 fi
 
 mkdir -p "$outdir"
+rm page-0* || echo "Nothing to remove"
 
 # Refuse to overwrite matching output files.
 for file in "$outdir"/page-*.pdf; do
@@ -33,7 +34,7 @@ done
 pdfseparate "$input" "$outdir/page-%03d.pdf"
 echo "Split pages into: $outdir"
 
-rm "$index"
+rm "$index" || echo "Nothing to remove"
 
 find ./ -maxdepth 1 -type f ! -path ./index.md | sort | sed 's#\./##g; s#^#- [[#; s#$#]]#' > "$index"
 
