@@ -2,7 +2,7 @@
 title: Etharis Campaign Notes
 ---
 
-[[Handwritten Notes]] can be found in this folder. 
+[[Handwritten Notes/index|index]] can be found in this folder. 
 
 Eventually Character sheets will be added. 
 
