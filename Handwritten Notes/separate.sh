@@ -8,6 +8,7 @@ fi
 
 input=$1
 outdir=${2:-./}
+index=${2:-"$outdir/index.md"}
 
 if [ ! -f "$input" ]; then
     echo "Error: input file not found: $input" >&2
@@ -31,3 +32,9 @@ done
 
 pdfseparate "$input" "$outdir/page-%03d.pdf"
 echo "Split pages into: $outdir"
+
+rm "$index"
+
+find ./ -maxdepth 1 -type f ! -path ./index.md | sort | sed 's#\./##g; s#^#- [[#; s#$#]]#' > "$index"
+
+printf 'Wrote %s\n' "$index"
