@@ -1,4 +1,4 @@
-- [[Etharis_ Nathaniel, Brenton, Sebastian, Andrew, Aj.pdf]]
+- [[Etharis_notes.pdf]]
 - [[page-001.pdf]]
 - [[page-002.pdf]]
 - [[page-003.pdf]]
