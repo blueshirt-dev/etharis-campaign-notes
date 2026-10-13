@@ -1,0 +1,46 @@
+{
+  "state": {
+    "schema": "atlas-vtt",
+    "version": 4,
+    "background": "atlas-vtt/assets/20f54f32554364ba4e818b354f2e46c9_1791863856655_suulh8.jpg",
+    "grid": {
+      "enabled": true,
+      "visible": true,
+      "snapToGrid": true,
+      "type": "square",
+      "size": 70,
+      "offsetX": 0,
+      "offsetY": 0,
+      "opacity": 0.5,
+      "lineType": "solid",
+      "lineWidth": 1,
+      "autoDetect": true,
+      "unitType": "feet",
+      "unitDistance": 5,
+      "measurementType": "units"
+    },
+    "objects": {
+      "tokens": {},
+      "fog": {},
+      "pins": {},
+      "texts": {},
+      "drawings": {}
+    },
+    "camera": {
+      "x": 0,
+      "y": 0,
+      "scale": 1
+    },
+    "tokenSettings": {
+      "showNameplates": false,
+      "hiddenResources": [
+        "stress"
+      ],
+      "showInstanceBadges": true,
+      "tokenRingSize": 1,
+      "showHPBars": true,
+      "showStressBars": false
+    }
+  },
+  "version": 4
+}
