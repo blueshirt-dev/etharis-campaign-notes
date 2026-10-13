@@ -10,3 +10,5 @@ Eventually update to convert session notes to obsidian.
 
 Also, good to know but this idea is years old since J even started it and then we never used it. https://yaboithej.github.io/Lore-of-the-Misfits/
 
+For most of my notes, I'll probably keep the sheet blank and refer to the backlinks for what is known of that location. 
+
