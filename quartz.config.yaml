@@ -270,7 +270,7 @@ plugins:
   - source: github:Requiae/quartz-leaflet-bases-plugin
     enabled: true
     options:
-      enableCopyTool: false
+      enableCopyTool: true
   - source: "@quartz-community/obsidian-plugin-excalidraw"
     enabled: true
     options:

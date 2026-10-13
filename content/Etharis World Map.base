@@ -1,7 +1,7 @@
 views:
   - type: leaflet-map
     name: View
-    image: atlas-vtt/assets/20f54f32554364ba4e818b354f2e46c9.jpg
+    image: /atlas-vtt/assets/20f54f32554364ba4e818b354f2e46c9.jpg
     height: 800
     maxZoom: 0
     defaultZoom: -3
