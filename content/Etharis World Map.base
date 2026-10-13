@@ -6,3 +6,4 @@ views:
     maxZoom: 0
     defaultZoom: -3
     minZoom: -3
+    unit: px
