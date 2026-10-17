@@ -1,6 +1,6 @@
 ---
 marker:
-  - coordinates: 4268, 3309
+  - coordinates: 3166, 3361
     icon: lucide-mountain
     minZoom: -1.8
 ---
